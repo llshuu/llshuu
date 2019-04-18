@@ -1,0 +1,41 @@
+.head-box1:hover .head-window{
+    display: block;
+}
+.head-window{
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: 84px;
+    border: 1px solid #b4b4b4;
+    line-height: normal;
+    top: 67px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.head-line1{
+    margin-top: 5px;
+    height: 25px;
+    width: 160px;
+    text-indent: 20px;
+}
+.head-line1 a{
+    font-size: 12px;
+}
+hr{
+    margin: 10px 0;
+    border: 1px solid #e5e5e5;
+}
+.head-lin1{
+    height: 25px;
+    width: 160px;
+    text-indent: 20px;
+}
+.head-line1 a{
+    font-size: 12px;
+}
+.head-line1:hover{
+    background: #007bba;
+}
+.head-line1:hover a{
+    color: #ffffff;
+}

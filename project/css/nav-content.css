@@ -1,0 +1,43 @@
+.wall:hover .content{
+    display: block;
+}
+.wall:hover .nav-icon3{
+    display: block;
+}
+
+.content{
+    display: none;
+    width: 262px;    
+    background: #333d4b;
+    /* position: absolute; */
+}
+.content-line{
+    text-indent: 45px;
+    font-size: 15px;
+    color: #e7ebf0;
+    height: 46px;
+    line-height: 46px;
+    /* background: #3d4755; */
+}
+.nav-icon3{
+    display: none;
+    position: absolute;
+    background: url(../images/test_25.png);
+    width: 14px;
+    height: 13px;
+    left: 223px;
+    top: 17px;
+    z-index: 1;
+}
+
+.content-line:hover{
+    background: #3d4755;
+}
+.wall{
+    position: relative;
+}
+
+
+
+
+
