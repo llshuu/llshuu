@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+    /* visibility: hidden; */
+}
+.clearfix{
+    zoom:1
+}
+
+
+
+
+
+.box{
+    position: relative;
+    float: left;
+    width: 248px;
+    height: 249px;
+    margin: 20px;
+}
+.box1>div{
+    position: absolute;
+    background: url(../images/2.png) no-repeat;
+	
+    transition: all 1s;
+}
+.box1>section{
+    background: url(../images/1.png) no-repeat;
+	width: 249px;
+	height: 249px;
+	transition: all 1s;
+}
+.box1 div{
+    background-size: 0px 0px ;
+    top: 0px;
+    left: 0px;
+    width: 249px;
+	height: 249px;
+}
+
+.box1:hover div{
+    background-size: 249px 249px ;
+}
+
+/* 2 */
+.box2 {
+    position: relative;
+    width: 250px;
+    height: 249px;
+    /* margin: 35px; */
+    /* float: left; */
+}
+.box2 section {
+    background: url(../images/1.png) no-repeat;
+    width: 250px;
+    height: 249px;
+    transition: all, 1s;
+}
+.box2 div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../images/2.png) no-repeat;
+    width: 250px;
+    height: 249px;
+    transition: all 1s;
+}
+
+.box2 div {
+    background-position: center;
+    border-radius: 125px;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    margin: 125px;
+}
+
+.box2:hover div {
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+}
+
+
+
+
+/* 3 */
+/* .box3>section{
+    background: url(../images/1.png) no-repeat;
+	width: 249px;
+	height: 249px;
+	transition: all 1s;
+}
+.box3{
+    perspective: 1000px;
+}
+.box3 div{
+    left: 0;
+    top: 0;
+    background: none;
+    background: url(../images/2.png);
+    background-size: 0px 0px;
+    background-position: center;
+    border-radius: 125px;
+    overflow: hidden;
+    transition: all 1.5s
+}
+
+
+.box3:hover div {
+    width: 249px;
+    height: 249px;
+    margin: 0px;
+    background-size: 249px 249px;
+} */
+
+
+
+/* 3 */
+
+
+
+.box3 section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/2.png);
+    opacity: 0;
+    transition: all 1s;
+}
+#box3 div:nth-child(1){
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: url(../images/12.png) no-repeat center center;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+    margin: 0
+}
+.box3>div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 249px;
+    height: 249px;
+    /* border-radius: 50%; */
+    
+}
+/* .box3:hover p:nth-child(1){    
+    
+    margin-left: -200px;
+} */
+
+/* .box3 div p:nth-child(2){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/11.png) no-repeat;
+    left: 124px;
+    top: 0;
+    transition: all 1s;
+} */
+/* .box3:hover section{    
+    opacity: 1;
+
+}
+.box3:hover p:nth-child(1){    
+    
+    margin-left: -200px;
+}
+.box3:hover p:nth-child(2){    
+    
+    margin-left: 200px;
+} */
+
+
+/* 4 */
+.box4 section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/1.png);
+    transition: all 1s;
+    z-index: 1
+}
+.box4 div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/2.png);
+    transition: all 1s;
+    transform: rotateY(-90deg)
+}
+.box4:hover div{
+    z-index: 2;
+    transform: rotateY(0deg)
+}
+
+/* 5 */
+.box5 section{
+    width: 100%;
+    height: 100%;
+    background: url(../images/1.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box5 div{
+    width: 100%;
+    height: 0%;
+    background: url(../images/2.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s
+}
+.box5:hover div{
+    height: 100%;
+    z-index: 1;
+}
+
+/* 6 */
+.box6 section,div{
+    width: 248px;
+    height: 249px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+}
+.box6 section p:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/23.png) no-repeat;
+    left: 0;
+    top: -50%;
+    transition: all 1s;
+    
+}
+.box6 section p:nth-child(2){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/24.png) no-repeat;
+    left: 0;
+    top: 100%;
+    transition: all 1s;
+}
+
+.box6 div p:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/12.png) no-repeat;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+}
+.box6 div p:nth-child(2){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/11.png) no-repeat;
+    left: 50%;
+    top: 0;
+    transition: all 1s;
+}
+.box6:hover section p:nth-child(1){
+    top: 0;
+}
+.box6:hover section p:nth-child(2){
+    top: 50%;
+}
+
+
+.box6:hover div p:nth-child(1){
+    left: -50%
+}
+.box6:hover div p:nth-child(2){
+    left: 100%
+}
+
+
+/* 7 */
+
+.box7 section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/1.png);
+}
+.box7 div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/2.png);
+    transform: rotateX(90deg);
+    transition: all 1s;
+}
