@@ -1,0 +1,215 @@
+.main{    
+    /* position: absolute;
+    border: 1px solid #ececec;
+    width: 910px;
+    height: 858px;
+    left:272px ;
+    top: 75px;
+    bottom: 0;
+    right: 0; */
+    background: #ffffff;
+	position:absolute; 
+	top: 78px;
+	left: 275px;
+	right: 10px;
+	bottom: 10px;
+	padding: 10px;
+	/* overflow: auto */
+}
+
+.line1-1{
+    display: inline-block;
+    width: 116px;
+    height: 34px;
+    background: #e9e9e9;
+    line-height: 34px;
+}
+.line1-1 span{
+    font-size: 12px;
+    color: #686767;
+    margin-left: 18px;
+}
+.line1-1 div{
+    display: inline-block;
+    background: url(../images/test_133.gif) ;
+    width: 15px;
+    height: 15px; 
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.line1-2{
+    display: inline-block;
+    width: 116px;
+    height: 34px;
+    background: #919191;
+    line-height: 34px;
+}
+.line1-2 span{
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 18px;
+}
+.line1-2 div{
+    display: inline-block;
+    background: url(../images/test_155.gif) ;
+    width: 15px;
+    height: 15px; 
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.main-line1 h1{
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* 三 */
+.main-line3{
+    display: block;
+    height: 50px;
+    background: #e5e5e5;  
+    margin-top:  20px;
+}
+.line3-1{
+    display: inline-block;
+}
+form input{
+    width: 100px;
+    border: 1px solid transparent;
+    outline: 0;
+}
+form div span{
+    font-size: 12px;
+    color: #333333;
+    margin-left: 10px;  
+}
+.line3-1{
+    width: 170px;
+    height: 32px;
+    background: #ffffff;
+    border-radius: 5px; 
+    margin-top: 10px;  
+    margin-left: 8px; 
+}
+.line3-1>span{
+    line-height: 32px;
+}
+.line3-2{
+    width: 90px;
+    height: 34px;
+    background: #5076ac;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+}
+/* 四 */
+.main-line4{
+    display: block;
+    height: 36px;
+    margin-top:  20px;
+}
+.main-line4  section,.main-line4 div{
+    display: inline-block;
+}
+.line4-box1{
+    height: 36px;
+    width: 110px;
+    background: #2c84ff;
+    border-radius: 5px;
+}
+.line4-1{
+    background: url(../images/test_30.png);
+    width: 20px;
+    height: 20px; 
+    vertical-align: middle; 
+    margin-left: 20px; 
+}
+.line4-box1 a{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 34px;
+    margin-left: 5px;
+}
+.line4-box2{
+    height: 36px;
+    width: 110px;
+    background: #4fc61a;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.line4-2{
+    background: url(../images/test_32.png);
+    width: 20px;
+    height: 20px; 
+    vertical-align: middle; 
+    margin-left: 20px; 
+}
+.line4-box2 a{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 34px;
+    margin-left: 5px;
+}
+.line4-box3{
+    height: 36px;
+    width: 110px;
+    background: #ff8314;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.line4-3{
+    background: url(../images/test_34.png);
+    width: 20px;
+    height: 20px; 
+    vertical-align: middle; 
+    margin-left: 20px; 
+}
+.line4-box3 a{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 34px;
+    margin-left: 5px;
+}
+
+/* 表格 */
+tr:hover{
+    background: #999999;
+    /* position: relative; */
+}
+
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th,td{
+    border: 1px solid #dddddd;
+    height: 36px;
+    text-align: center;
+}
+td{
+    color: #333333;
+    font-size: 12px;
+}
+
+
+/* 尾 */
+.trail>input:hover{
+    background: #5076ac;
+} 
+.trail{
+
+    text-align: center; 
+    width: 700px;
+    margin: 0 auto;
+}
+.trail input{
+    border: none;
+    padding: 10px;
+    color: #999999;
+}
+#trail1{
+    width: 10px;
+    border: 1px solid #919191;
+}
